@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Cards App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="addCardForm">
+        <select name="suit">
+          <option value="hearts">Hearts</option>
+          <option value="diamonds">Diamonds</option>
+          <option value="clubs">Clubs</option>
+          <option value="spades">Spades</option>
+        </select>
+        <select name="value">
+            <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="jack">J</option>
+          <option value="queen">Q</option>
+          <option value="king">K</option>
+          <option value="ace">Ace</option>
+        </select>
+        <button class="button-37" type="submit">Add Card</button>
+      </form>
+
+      <form id="deleteCardForm">
+        <select name="suit">
+          <option value="hearts">Hearts</option>
+          <option value="diamonds">Diamonds</option>
+          <option value="clubs">Clubs</option>
+          <option value="spades">Spades</option>
+        </select>
+        <select name="value">
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="jack">J</option>
+          <option value="queen">Q</option>
+          <option value="king">K</option>
+          <option value="ace">Ace</option>
+        </select>
+        <button class="button-37" type="submit">Delete Card</button>
+      </form>
+
+    <div id="deckContainer"></div>
+    <button class="button-37" onclick="getDeck()">Show Deck</button>
+    <button class="button-37" onclick="getRandomCard()">Show Random Card</button>
+    <button class="button-37" onclick="shuffleDeck()">Shuffle Deck</button>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
