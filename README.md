@@ -20,6 +20,7 @@ To shuffle your deck, click on the Shuffle Deck button in the bottom of the page
 
 ### Show Buttons
 ![image](https://github.com/scarflox/carddeck/assets/159484696/736a0c8c-0e45-4d7d-b08e-fafac2171008)
+
 You can use "Show Random" to display a single card chosen randomly, or "Show Deck" to return to current deck display mode.
 
 **Note:** The deck resets on every page refresh.
