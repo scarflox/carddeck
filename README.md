@@ -13,7 +13,12 @@ Deck resets when the page is reopened.
  - Node.js
 
 ## How to Install
+- Run a new terminal in Visual Studio Code
+- Type the following command: cd (path to "playing-cards-app")
+- node server.js
+- Click on the local host link given in the terminal
+- example: PS F:\carddeck> cd F:\carddeck\playing-cards-app
+PS F:\carddeck\playing-cards-app> node server.js 
+Server listening at http://localhost:3000
 
-Write cd (Enter path to "playing-cards-app").
-Enter "node server.js) and click on the local host link given.
 
