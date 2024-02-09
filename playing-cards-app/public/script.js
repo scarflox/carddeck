@@ -65,7 +65,7 @@ document.getElementById('addCardForm').addEventListener('submit', function(e) { 
     })
     .then(response => { 
       if (!response.ok) { 
-        throw new Error('Failed to delete card'); 
+        throw new Error("Failed to delete card: Card doesn't exist in deck."); 
       }
       return response.text();
     })
