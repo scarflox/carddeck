@@ -9,22 +9,26 @@ Using the buttons at the bottom, you can Shuffle the deck, Roll a random card or
 Deck resets when the page is reopened.
 
 ## Prerequisites
- - Visual Studio code
  - Node.js
 
 ## How to Install
-1. Run a new terminal in Visual Studio Code
-2. Type the following command: cd (path to "playing-cards-app")
-3. node server.js
-4. Click on the local host link given in the terminal
-
+1. Run a new terminal.
+2. Go to the playing-cards-app directory:
+```
+cd /path/to/playing-cards-app
+```
+3. Start the server:
+```
+node server.js
+```
+If installed properly, you should see this:
 
 ```
-
 PS F:\carddeck> cd F:\carddeck\playing-cards-app
 PS F:\carddeck\playing-cards-app> node server.js 
 Server listening at http://localhost:3000
-
 ```
+4. Open the localhost link given in the terminal.
+
 
 
