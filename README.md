@@ -20,9 +20,11 @@ Deck resets when the page is reopened.
 
 Example:
 ...
+
 PS F:\carddeck> cd F:\carddeck\playing-cards-app
 PS F:\carddeck\playing-cards-app> node server.js 
 Server listening at http://localhost:3000
+
 ...
 
 
