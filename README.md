@@ -23,7 +23,7 @@ To shuffle your deck, click on the Shuffle Deck button in the bottom of the page
 
 You can use "Show Random" to display a single card chosen randomly, or "Show Deck" to return to current deck display mode.
 
-**Note:** The deck resets on every page refresh.
+**Note:** The deck "survives" page refresh.
 
 ## Prerequisites
  - Node.js
