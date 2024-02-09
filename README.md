@@ -17,8 +17,12 @@ Deck resets when the page is reopened.
 - Type the following command: cd (path to "playing-cards-app")
 - node server.js
 - Click on the local host link given in the terminal
-- example: PS F:\carddeck> cd F:\carddeck\playing-cards-app
+
+Example:
+...
+PS F:\carddeck> cd F:\carddeck\playing-cards-app
 PS F:\carddeck\playing-cards-app> node server.js 
 Server listening at http://localhost:3000
+...
 
 
