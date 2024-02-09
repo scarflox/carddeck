@@ -18,7 +18,7 @@ Deck resets when the page is reopened.
 - node server.js
 - Click on the local host link given in the terminal
 
-Example:
+
 ...
 
 PS F:\carddeck> cd F:\carddeck\playing-cards-app
