@@ -65,7 +65,7 @@ document.getElementById('addCardForm').addEventListener('submit', function(e) { 
     })
     .then(response => { 
       if (!response.ok) { 
-        throw new Error("Failed to delete card: Card doesn't exist in deck."); 
+        throw new Error('Failed to delete card: Card doesn\'t exist in deck.'); 
       }
       return response.text();
     })
@@ -80,7 +80,7 @@ document.getElementById('addCardForm').addEventListener('submit', function(e) { 
   });
   
 
-  function refreshDeck() { // Function to update/refresh the Deck
+  function refreshDeck() { 
     fetch('/deck') 
         .then(response => response.json())
         .then(data => {
@@ -114,7 +114,7 @@ function getRandomCard() {
             deckContainer.appendChild(imgElement); 
         });
 }
-//PATCH
+
 function shuffleDeck() {
     fetch('/deck/shuffle', { method: 'PATCH' })
         .then(() => getDeck()); 

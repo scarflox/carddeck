@@ -7,14 +7,6 @@ const port = 3000; // Common port used for development purposes.
 app.use(express.json()); // Parses incoming requests.you'
 app.use(express.static('public')); // This serves static files from the public directory.
 
-/* Middleware is a function that has access to the request object (`req`), the response object (`res`), 
-and the next middleware function in the application's request-response cycle. 
-These functions can execute any code, make changes to the request and response objects, 
-end the request-response cycle and call the next middleware function.*/
-
-
-
-
 // GET – returns all the cards in our deck
 app.get('/deck', (req, res) => {
   res.json(getDeck());

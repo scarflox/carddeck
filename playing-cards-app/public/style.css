@@ -6,6 +6,10 @@ body {
   color: #333;
 }
 
+button {
+   background-color: black
+}
+
 .button-37 {
   background-color: #13aa52;
   border: 1px solid #13aa52;
@@ -26,13 +30,6 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-}
-
-.button-container {
-  display: flex;
-  flex-direction: column; 
-  justify-content: flex-start; 
-  padding-left: 20px; 
 }
 
 .button-37:hover {
